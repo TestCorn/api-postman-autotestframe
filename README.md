@@ -5,7 +5,7 @@ postman+nodejs+newman+jenkins
 
 if not exist api-postman-autotestframe (
 
-git clone https://github.com/JiTeng/api-postman-autotestframe.git
+git clone https://github.com/TestCorn/api-postman-autotestframe.git
     
 cd api-postman-autotestframe
     
