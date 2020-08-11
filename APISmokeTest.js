@@ -35,14 +35,12 @@ newman.run({
     environment: require(env_file)
 }, function (err,summary) {
     if (err) { 
-	http.get(smsurl);
 	http.get(smslxlurl);
         sendError();
         console.error('error:'+err);
         throw err;
     }
     else if(summary.error){
-	http.get(smsurl);
 	http.get(smslxlurl);
         sendError();
         console.error('summary.error:'+summary.error);
@@ -74,7 +72,6 @@ newman.run({
             sendSuccess(stats,tracelog,test_names_failures);
         }
         else{
-            http.get(smsurl);
 	    http.get(smslxlurl);
             sendFailed(stats,tracelog,test_names_failures);
         }
