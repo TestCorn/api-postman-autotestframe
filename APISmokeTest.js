@@ -8,7 +8,7 @@ var export_file_junit = './junit.xml';
 var collection_file = './API.postman_collection.json';
 var env_file = './postman_environment.json';
 
-var to_success = 'jiteng@inspur.com;zhangsiqiao@inspur.com';
+var to_success = 'lixiliang01@inspur.com;zhangsiqiao@inspur.com';
 var to_failure = 'mayantang@inspur.com;hljun@inspur.com;liuyuheng@inspur.com;jiteng@inspur.com;zhangsiqiao@inspur.com;lijia_lc@inspur.com;mazhenrj@inspur.com;hujianren@inspur.com;lixiliang01@inspur.com;maotiezhu@inspur.com';
 //var to_success = 'jiteng@inspur.com';
 //var to_failure = 'jiteng@inspur.com';
