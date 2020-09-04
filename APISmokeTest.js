@@ -9,7 +9,7 @@ var collection_file = './API.postman_collection.json';
 var env_file = './postman_environment.json';
 
 var to_success = 'Xiliang Li (李锡亮)-软件集团 <lixiliang01@inspur.com>;zhangsiqiao@inspur.com';
-var to_failure = 'Mark(马岩堂) <mayantang@inspur.com>; Leen Hu(胡立军) <hljun@inspur.com>; Jumoer Zhang (张鹏)-云服务集团 <zhangpeng08@inspur.com>; Kingping Liu (刘金平)-云服务集团 <liujinping01@inspur.com>; Flora Liu (刘雨蘅) <liuyuheng@inspur.com>; Daniel Li (李佳) <lijia_lc@inspur.com>; Mazone(马振) <mazhenrj@inspur.com>; Hugo Hu (胡建仁) <hujianren@inspur.com>; Chenxin Chen (陈新) <chenxinlc@inspur.com>; Sai Chen (陈赛) <chensai@inspur.com>; Joe Zhang (张四桥) <zhangsiqiao@inspur.com>; Mary Ma (马文丽) <mawenli@inspur.com>; Xiliang Li (李锡亮)-软件集团 <lixiliang01@inspur.com>; Love Mao (毛铁柱) <maotiezhu@inspur.com>';Silence (李锡亮) <dasym@qq.com>;
+var to_failure = 'Mark(马岩堂) <mayantang@inspur.com>; Leen Hu(胡立军) <hljun@inspur.com>; Jumoer Zhang (张鹏)-云服务集团 <zhangpeng08@inspur.com>; Kingping Liu (刘金平)-云服务集团 <liujinping01@inspur.com>; Flora Liu (刘雨蘅) <liuyuheng@inspur.com>; Daniel Li (李佳) <lijia_lc@inspur.com>; Mazone(马振) <mazhenrj@inspur.com>; Hugo Hu (胡建仁) <hujianren@inspur.com>; Chenxin Chen (陈新) <chenxinlc@inspur.com>; Sai Chen (陈赛) <chensai@inspur.com>; Joe Zhang (张四桥) <zhangsiqiao@inspur.com>; Mary Ma (马文丽) <mawenli@inspur.com>; Xiliang Li (李锡亮)-软件集团 <lixiliang01@inspur.com>; Love Mao (毛铁柱) <maotiezhu@inspur.com>';李锡亮 浪潮云计算开发测试中心<dasym@qq.com>;
 //var to_success = 'jiteng@inspur.com';
 //var to_failure = 'jiteng@inspur.com';
 
