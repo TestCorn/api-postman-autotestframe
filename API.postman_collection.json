@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "76f502d0-6af2-4d44-a10c-0f8997bed2ee",
-		"name": "扫码改版V3",
+		"_postman_id": "16be530a-1158-4c9a-8147-9d870db1def2",
+		"name": "扫码监控V3-季滕",
 		"description": "扫码改版V3",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
 		{
@@ -12,7 +12,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "edac64cb-67ee-44b1-a4e8-8c083d7e3014",
+						"id": "71f37838-7235-40b0-9926-446ed70111dd",
 						"exec": [
 							"pm.test(\"产品详情接口（阿胶）返回码是 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
@@ -73,7 +73,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "801198bb-47ae-4ab6-a249-4e0038a5e4c1",
+						"id": "c0f8d126-7aba-4cf3-b038-8e917bfd11a1",
 						"exec": [
 							"pm.test(\"产品详情接口（花冠）返回码是 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
@@ -134,7 +134,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "ddc26988-719a-42bd-85b0-ae392dc37254",
+						"id": "72794bb6-33b6-4795-8c05-72dd2a4d09a8",
 						"exec": [
 							"pm.test(\"质量追溯接口（阿胶）返回码是 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
@@ -195,7 +195,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "688368fe-59e0-44c8-8357-50d9a6188512",
+						"id": "5cad7d0f-a124-4d05-bae4-93a55d531e39",
 						"exec": [
 							"pm.test(\"质量追溯接口（花冠）返回码是 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
@@ -249,7 +249,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "ba43a2a3-f802-4aa1-a5cb-df2677852225",
+						"id": "536439e7-039e-4cb1-b8db-8b74e7ccc5e0",
 						"exec": [
 							"pm.test(\"获取食安查抽检数据（阿胶）返回码是 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
@@ -307,7 +307,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "a69a0bfe-55f8-4549-95f4-37e89d029ad4",
+						"id": "1bbd376a-8713-4f54-807e-b20c5bdbcd04",
 						"exec": [
 							"pm.test(\"获取食安查抽检数据（花冠）返回码是 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
@@ -365,7 +365,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "0d5241e4-9cbb-4e68-a589-e4d34bae6d73",
+						"id": "6689babf-cf30-4da7-b2ed-20df7a6d2025",
 						"exec": [
 							"pm.test(\"获取企业文化数据（阿胶）返回码是 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
@@ -426,7 +426,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "fe810ca1-33c9-418b-adb4-2324a7256340",
+						"id": "07ccff2b-c0fe-4620-8331-129257ac5b05",
 						"exec": [
 							"pm.test(\"获取企业文化数据（花冠）返回码是 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
@@ -487,7 +487,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "e4d54e97-1be6-4795-b5ee-73af9d95ac0c",
+						"id": "a1004d73-9164-4b27-8b02-28cac4c581a2",
 						"exec": [
 							"pm.test(\"获取放心购接口（阿胶）返回码是 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
@@ -548,7 +548,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "876dd5a2-3cb3-44ca-a137-69726fc60598",
+						"id": "c31176aa-51c5-4eb4-889e-f4ea012fe6f7",
 						"exec": [
 							"pm.test(\"获取放心购接口（花冠）返回码是 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
@@ -609,7 +609,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "504bd102-fb04-453f-9735-669573f17311",
+						"id": "3ae1af5e-b73e-441e-a793-40612d50822e",
 						"exec": [
 							"pm.test(\"珠宝query接口返回码是 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
@@ -649,20 +649,7 @@
 						}
 					}
 				},
-				"url": {
-					"raw": "https://iccs-cn-beijing.qualink.com/iccs/chain/query",
-					"protocol": "https",
-					"host": [
-						"iccs-cn-beijing",
-						"qualink",
-						"com"
-					],
-					"path": [
-						"iccs",
-						"chain",
-						"query"
-					]
-				}
+				"url": "https://iccs-cn-beijing.qualink.com/iccs/chain/query"
 			},
 			"response": []
 		},
@@ -672,7 +659,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "5cd138ad-1bf6-4bc1-b209-91d4b27af649",
+						"id": "4b795316-c00c-47c0-b3a0-50822909dc9a",
 						"exec": [
 							"pm.test(\"基地接口（阿胶）返回码是 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
@@ -729,7 +716,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "b684638d-ca22-4e73-894e-e306bbb35783",
+						"id": "51ea1dc4-3ae3-4f4f-9d0c-409d4df97b0e",
 						"exec": [
 							"pm.test(\"基地接口（花冠）返回码是 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
@@ -786,7 +773,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "3202e958-d736-43a3-8140-be2551a0055d",
+						"id": "6043f1d7-7c1c-42ce-acf1-4105c8bcab90",
 						"exec": [
 							"pm.test(\"质量码首页大家都在扫接口返回码是 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
@@ -826,6 +813,74 @@
 						}
 					]
 				}
+			},
+			"response": []
+		},
+		{
+			"name": "物品编码中心接口监控",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "44b3df57-3183-4302-b77c-19ac3342b60b",
+						"exec": [
+							"pm.test(\"响应时间低于10s\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(10000);\r",
+							"});\r",
+							"\r",
+							"var str = pm.response.text();\r",
+							"if( str.includes(\"您的企业已经超过有效期 ! 如需继续使用请与我们联系!\") ){ //如果包含提示信息\"您的企业已经超过有效期 ! 如需继续使用请与我们联系!\"，则告警。\r",
+							"    pm.test(\"告警“您的企业已经超过有效期 ! 如需继续使用请与我们联系!”\",function(){\r",
+							"    pm.response.to.have.status(\"AssertFail\"); //使用一个不存在的status来构成失败断言\r",
+							"});\r",
+							"}\r",
+							"else{//如果不包含提示信息\"您的企业已经超过有效期 ! 如需继续使用请与我们联系!\"，则测试通过\r",
+							"    pm.test(\"测试通过\",function(){\r",
+							"    });\r",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://api.chinatrace.org/AAQI/v1/ProductData/gtin/06914068029184?targetMarket=156&dataVersion=1.1&clientGln=6901234501124&mac=046B84151DE0C8CE66B433EF27441A97C9218D5647080FA8A1EFCE4FDA12C7B4",
+					"protocol": "http",
+					"host": [
+						"api",
+						"chinatrace",
+						"org"
+					],
+					"path": [
+						"AAQI",
+						"v1",
+						"ProductData",
+						"gtin",
+						"06914068029184"
+					],
+					"query": [
+						{
+							"key": "targetMarket",
+							"value": "156"
+						},
+						{
+							"key": "dataVersion",
+							"value": "1.1"
+						},
+						{
+							"key": "clientGln",
+							"value": "6901234501124"
+						},
+						{
+							"key": "mac",
+							"value": "046B84151DE0C8CE66B433EF27441A97C9218D5647080FA8A1EFCE4FDA12C7B4"
+						}
+					]
+				},
+				"description": "出现“您的企业已经超过有效期 ! 如需继续使用请与我们联系!”则告警。"
 			},
 			"response": []
 		}
