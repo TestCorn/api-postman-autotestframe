@@ -824,7 +824,7 @@
 					"script": {
 						"id": "44b3df57-3183-4302-b77c-19ac3342b60b",
 						"exec": [
-							"pm.test(\"响应时间低于10s\", function () {\r",
+							"pm.test(\"物品编码中心接口-响应时间小于10s\", function () {\r",
 							"    pm.expect(pm.response.responseTime).to.be.below(10000);\r",
 							"});\r",
 							"\r",
@@ -835,7 +835,7 @@
 							"});\r",
 							"}\r",
 							"else{//如果不包含提示信息\"您的企业已经超过有效期 ! 如需继续使用请与我们联系!\"，则测试通过\r",
-							"    pm.test(\"测试通过\",function(){\r",
+							"    pm.test(\"物品编码中心接口-无异常\",function(){\r",
 							"    });\r",
 							"}"
 						],
